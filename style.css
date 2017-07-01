@@ -1,0 +1,141 @@
+
+#refresh {
+    display: none;
+}
+
+#scor {
+    text-align: left;
+    font-family: "Montserrat", sans-serif;
+    font-size: 30px;
+    margin-bottom: 30px;
+}
+
+#semnAdunare {
+    text-align: center;
+    font-family: "Montserrat", sans-serif;
+    font-size: 50px;
+    margin-top: 35px;
+}
+
+#numarA {
+    text-align: center;
+    padding: 35px;
+    font-family: "Montserrat", sans-serif;
+    font-size: 50px;
+    background-image: url(images/001-fruit.png);
+    display: inline-block;
+    width: 128px;
+    height: 128px;
+    float: right;
+    
+}
+
+#numarB {
+    text-align: center;
+    padding: 35px;
+    font-family: "Montserrat", sans-serif;
+    font-size: 50px;
+    background-image: url(images/001-fruit.png);
+    display: inline-block;
+    width: 128px;
+    height: 128px;
+    float: left;
+}
+
+.butn a:hover, .butn a:visited, .butn a:link, .butn a:active, .nextBtn a:hover, .nextBtn a:visited, .nextBtn a:link, .nextBtn a:active {
+    text-decoration: none;
+}
+.nextBtn a {
+    font-size: 20px !important;
+    padding: 20px 40px;
+}
+.butn a, .nextBtn a {
+    font-family: "Montserrat", sans-serif;
+    font-size: 50px;
+    color: lightcoral;
+    text-align: center;
+    text-decoration: none;
+    margin-right: 30px;
+	width: 128px;
+	height: 64px;
+	display: inline-block;
+	position: relative;
+	line-height: 64px;
+	background-color: #eaeaea;
+	background-image: -webkit-gradient(linear, left top, left bottom, from(#f6f6f6), to(#eaeaea));
+	background-image: -webkit-linear-gradient(top, #f6f6f6, #eaeaea);
+	background-image: linear-gradient(top, #f6f6f6, #eaeaea);
+	border-radius: 32px;
+	box-shadow: 0 1px 1px rgba(0, 0, 0, .25), 0 2px 3px rgba(0, 0, 0, .1);
+    cursor: pointer;
+}
+.butn a:active, .nextBtn a:active  {
+	top: 1px;
+	background-image: -webkit-gradient(linear, left top, left bottom, from(#eaeaea), to(#f6f6f6));
+	background-image: -webkit-linear-gradient(top, #eaeaea, #f6f6f6);
+	background-image: linear-gradient(top, #eaeaea, #f6f6f6);
+}
+
+.butn a::before, .nextBtn a::before {
+	content: '';
+	position: absolute;
+	z-index: -1;
+	top: -8px;
+	right: -8px;
+	bottom: -8px;
+	left: -8px;
+	background-color: #eaeaea;
+	border-radius: 140px;
+	opacity: 0.5;		
+}
+.butn a:active::before, .nextBtn a:active::before  {
+	top: -9px;
+}
+ 
+.butn a:hover::before, .nextBtn a:hover::before {
+	opacity: 1;
+}
+.butn a:hover, .nextBtn a:hover {
+    color: darkgrey;
+}
+.butn a:hover::before, .nextBtn a:hover::before {
+    background-color: #c6f0f8;
+}
+
+#but1 {
+    text-align: right;
+}
+
+#but2 {
+    text-align: center;
+}
+
+#but3 {
+    
+}
+
+.butoane {
+    margin: 100px 0;
+}
+
+#msg {
+   text-align: center;
+    font-family: "Montserrat", sans-serif;
+    font-size: 30px;
+    margin-bottom: 30px;
+}
+
+.nextBtn {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.adunare {
+   padding: 10px 60px 60px;
+    background-image: url(images/5.jpg);
+}
+.background {
+    position: relative;
+    background: url(images/5.jpg);
+    z-index: 0;
+}
